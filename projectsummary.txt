@@ -1,0 +1,68 @@
+Modules:
+
+Admin: 
+    Login
+    Categories
+    Sub Categories
+    Brands
+    Products
+    Shipping
+    Discount Coupon
+    Orders
+    Users
+    Pages
+    Change Password
+    Dashboard
+    Product Ratings
+    
+front-end:
+    Home 
+    Shop
+    Product
+    Cart
+    Registration
+    Login
+    Checkout
+    My Orders
+    My Wishlists
+    My Profile
+    Change Password
+    Contact Us
+    Forgot Password
+    Product Ratings
+    
+database tables:
+    users
+    categories
+    temp_images
+    sub_categories
+    brands
+    products
+    product_images
+    countries
+    orders
+    order_items
+    customer_addresses
+    shipping_charges
+    discount_coupons
+    wishlists
+    pages
+    password_reset_tokens (already created table - use for forgot password functionality)
+    product_ratings
+    
+plugins:
+    Dropzone
+    Summernote - rich text editor
+    ion range slider
+    select2
+    datetime picker
+
+packages & libraries:
+    laravel/tinker
+    intervention/image
+    doctrine/dbal
+    hardevine/shoppingcart
+    nesbot/carbon
+
+Tools:
+    Mailtrap
