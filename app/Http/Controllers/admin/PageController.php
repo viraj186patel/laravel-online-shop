@@ -36,7 +36,7 @@ class PageController extends Controller
             $page = new Page;
             $page->name = $request->name;
             $page->slug = $request->slug;
-            $page->content = $request->content;
+            $page->content = $request->input('content');
             $page->save();
 
             session()->flash('success','Page added successfully');
@@ -73,7 +73,7 @@ class PageController extends Controller
         } else {
             $page->name = $request->name;
             $page->slug = $request->slug;
-            $page->content = $request->content;
+            $page->content = $request->input('content');
             $page->save();
 
             session()->flash('success','Page updated successfully');
