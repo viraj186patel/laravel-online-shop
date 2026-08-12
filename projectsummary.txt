@@ -1,3 +1,31 @@
+Files:
+
+.env
+helper.php
+Kernel.php
+auth.php
+web.php
+
+Controllers -> AuthController.php, FrontController.php, ShopController.php, CartController.php
+admin -> AdminLoginController.php, CategoryController.php, SubCategoryController.php, BrandController.php, 
+ProductController.php, ProductImageController.php, ProductSubCategoryController.php, HomeController.php, 
+TempImagesController.php, OrderController.php, PageController.php, DiscountCodeController.php, ShippingController.php,
+UserController.php, SettingController.php 
+
+Middleware -> Authenticate.php, RedirectIfAuthenticated.php, AdminAuthenticate.php, AdminRedirectIfAuthenticated.php
+
+Mail -> ContactEmail.php, OrderEmail.php, ResetPasswordEmail.php
+
+Models -> User.php, Category.php, SubCategory.php, Brand.php, Product.php, ProductImage.php, ProductRating.php,
+TempImage.php, Country.php, Order.php, OrderItem.php, ShippingCharge.php, DiscountCoupon.php, Page.php,
+CustomerAddress.php, Wishlist.php
+
+Migrations, Factories, Seeders
+
+public -> admin-assets, front-assets, temp/thumb, uploads/category/thumb, uploads/product/large, uploads/product/small
+
+views -> admin, front, email
+
 Modules:
 
 Admin: 
@@ -66,3 +94,7 @@ packages & libraries:
 
 Tools:
     Mailtrap
+
+admin access:
+email: admin@example.com
+password: admin
